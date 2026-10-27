@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-EXCEL_PATH = r"C:/Scolarité/vas/Stage en entreprise agro-industrielle/stock_sisley.xlsx"
+EXCEL_PATH = "stock_sisley.xlsx"
 st.set_page_config(page_title="Suivi du stock", page_icon="📦")
 st.title("📦 Suivi et actualisation du stock")
 
