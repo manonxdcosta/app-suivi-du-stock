@@ -69,11 +69,9 @@ if st.button("Valider"):
                         objectif = "360 boîtes soit environ 2 palettes"
                     elif texte_boite in ('petite éco', 'petite eco'):
                         objectif = "396 boîtes soit environ 2 palettes"
+                    elif texte_boite in ('petite boîte grise','petite boîte grise'):
+                        objectif="n boîtes soit environ n palettes"
                     elif texte_boite in ('grande éco', 'grande eco'):
-                        objectif = "n boîtes soit environ n palettes"
-                    elif texte_boite in ('petite GIF', 'petite gif'):
-                        objectif = "n boîtes soit environ n palettes"
-                    elif texte_boite in ('grande GIF', 'grande gif'):
                         objectif = "n boîtes soit environ n palettes"
                     elif texte_boite in ('grande boîte grise', 'grande boite grise'):
                         objectif = "n boîtes soit environ n palettes"
