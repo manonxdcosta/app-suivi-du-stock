@@ -72,7 +72,7 @@ if st.button("Valider"):
                     elif texte_boite in ('petite boîte grise','petite boîte grise'):
                         objectif="n boîtes soit environ n palettes"
                     elif texte_boite in ('grande éco', 'grande eco'):
-                        objectif = "n boîtes soit environ n palettes"
+                        objectif = "456 boîtes soit environ 4 palettes"
                     elif texte_boite in ('grande boîte grise', 'grande boite grise'):
                         objectif = "n boîtes soit environ n palettes"
                     else:
